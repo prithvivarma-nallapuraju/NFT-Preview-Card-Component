@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+#nft-component {
+  height: 33rem;
+}
+
+.hover-image {
+  top: 38.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container:hover .middle {
+  opacity: 1;
+  height: 18rem;
+  border-radius: 1rem;
+}
