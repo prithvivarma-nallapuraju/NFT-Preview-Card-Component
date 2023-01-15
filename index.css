@@ -6,15 +6,3 @@
 #nft-component {
   height: 33rem;
 }
-
-.hover-image {
-  top: 38.5%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.container:hover .middle {
-  opacity: 1;
-  height: 18rem;
-  border-radius: 1rem;
-}
